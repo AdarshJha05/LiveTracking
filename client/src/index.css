@@ -1,0 +1,47 @@
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 28);
+  color: black;
+}
+.home-title{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 25px;
+
+}
+.order-btn{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.order-btn:hover{
+  background-color: #333;
+} 
+.tracking-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
